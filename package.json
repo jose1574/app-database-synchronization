@@ -1,0 +1,32 @@
+{
+  "name": "app-database-synchronization",
+  "version": "1.0.0",
+  "description": "sincronizacion de dos bases de datos de chrystal",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "start:dev": "nodemon --exec electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jose1574/app-database-synchronization.git"
+  },
+  "keywords": [
+    "sincronizacion",
+    "chrystal",
+    "dataBase"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jose1574/app-database-synchronization/issues"
+  },
+  "homepage": "https://github.com/jose1574/app-database-synchronization#readme",
+  "devDependencies": {
+    "electron": "^27.0.2"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
